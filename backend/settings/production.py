@@ -14,4 +14,4 @@ CORS_ALLOWED_ORIGINS = env.list(
 
 REST_FRAMEWORK = {**REST_FRAMEWORK,
     "DEFAULT_RENDERER_CLASSES": ["rest_framework.renderers.JSONRenderer"]
-}
+} 
