@@ -22,7 +22,7 @@ urlpatterns = [
 ]
 
 if settings.DEBUG:
-    uelpatterns = [
+    urlpatterns = [
         path('admin/', admin.site.urls),
     ] + urlpatterns
 
